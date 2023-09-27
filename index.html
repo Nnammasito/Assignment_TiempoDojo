@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiempo Dojo</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav>
+        <h1>Tiempo Dojo</h1>
+        <div class="Ciudades">
+            <div>Burbank</div>
+            <div>Chicago</div>
+            <div>Dallas</div>
+        </div>
+    </nav>
+    <main>
+        <div class="encabezado">
+            <h2 class="ciudad"> San Jose</h2>
+            <div>
+                <span>Mostrar Temperatura en: </span>
+                <select class="temperatura" name="temperatura" id="temperatura">
+                    <option value="c">°C</option>
+                    <option value="f">°F</option>
+                </select>
+            </div>
+        </div>
+        <div class="pronostico">
+            <div class="dia">
+                <h3>Hoy</h3>
+                <img class="imagen-pronostico" src="./img/some_rain.png" alt="Lluvioso">
+                <div>Algo de lluvia</div>
+                <div class="temperaturas">
+                    <div class="max">
+                        <span>24</span>°
+                    </div>
+                    <div class="min">
+                        <span>18</span>°
+                    </div>
+                </div>
+            </div>
+            <div class="dia">
+                <h3>Mañana</h3>
+                <img class="imagen-pronostico" src="./img/some_sun.png" alt="Soleado">
+                <div>Soleado</div>
+                <div class="temperaturas">
+                    <div class="max">
+                        <span>27</span>°
+                    </div>
+                    <div class="min">
+                        <span>19</span>°
+                    </div>
+                </div>
+            </div>
+            <div class="dia">
+                <h3>Viernes</h3>
+                <img class="imagen-pronostico" src="./img/some_clouds.png" alt="Nublado">
+                <div>Nublado</div>
+                <div class="temperaturas">
+                    <div class="max">
+                        <span>21</span>°
+                    </div>
+                    <div class="min">
+                        <span>16</span>°
+                    </div>
+                </div>
+            </div>
+            <div class="dia">
+                <h3>Sabádo</h3>
+                <img class="imagen-pronostico" src="./img/some_sun.png" alt="Soleado">
+                <div>Soleado</div>
+                <div class="temperaturas">
+                    <div class="max">
+                        <span>26</span>°
+                    </div>
+                    <div class="min">
+                        <span>21</span>°
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="cookies">
+        <img src="./img/cookie.png" alt="Cookie">
+        <div class="mensaje">
+            <h3>Stop! Cookies time</h3>
+            <p>We use cookies (sadly not edible ones) to personalize content and ads,
+            to provide social media features and to  analuse our traffic. <a href="#">Read more</a>
+            </p>
+        </div>
+        <div class="option">
+            <button class="aceptar" type="button">
+                I accept
+            </button>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
